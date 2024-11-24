@@ -64,6 +64,14 @@ import copy_icon from './copylink.png'
 import bannergirl_image from './bannergirl.png'
 import voucher from './voucher.png'
 
+import jayanga from './J.jpg'
+import vimukthi from './V.jpg'
+import gihara from './G.jpg'
+import hashan from './H.jpg'
+import irushi from './I.jpg'
+import sithija from './Sithija.jpg'
+import sashi from './S.jpg'
+
 
 export const assets = {
     logo,
@@ -87,7 +95,14 @@ export const assets = {
     parcel_icon,
     copy_icon,
     bannergirl_image,
-    voucher
+    voucher,
+    jayanga,
+    sithija,
+    sashi,
+    hashan,
+    vimukthi,
+    gihara,
+    irushi
 }
 
 export const menu_list = [
