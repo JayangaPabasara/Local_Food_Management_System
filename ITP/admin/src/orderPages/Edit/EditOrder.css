@@ -1,0 +1,99 @@
+.edit-order-container {
+  max-width: 600px;
+  height: 65%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #d9d9d9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.edit-order-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.edit-order-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-order-container label {
+  font-size: 16px;
+  margin-bottom: 8px;
+  color: #555;
+}
+
+.edit-order-container select {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-order-container button {
+  padding: 10px 15px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.edit-order-container button:hover {
+  background-color: #ffffff;
+  border: solid #28a745;
+  color: black;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+  font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .edit-order-container {
+    padding: 15px;
+    max-width: 100%;
+  }
+
+  .edit-order-container h2 {
+    font-size: 22px;
+  }
+
+  .edit-order-container select,
+  .edit-order-container button {
+    font-size: 14px;
+    padding: 8px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .edit-order-container {
+    padding: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+
+  .edit-order-container h2 {
+    font-size: 20px;
+  }
+
+  .edit-order-container select,
+  .edit-order-container button {
+    font-size: 13px;
+    padding: 6px 8px;
+  }
+
+  .edit-order-container label {
+    font-size: 14px;
+  }
+}

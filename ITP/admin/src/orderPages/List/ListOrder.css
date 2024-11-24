@@ -1,0 +1,78 @@
+.generate-pdf-btn {
+  background-color: #28a745;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  cursor: pointer;
+}
+
+.generate-pdf-btn:hover {
+  background-color: #ffffff;
+  border: solid #28a745;
+  color: black;
+}
+
+.order-id {
+  display: none;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  z-index: 1000;
+}
+
+.modal-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 500px;
+  width: 90%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.close-modal-btn {
+  background-color: #f44336;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 400px;
+}
+
+.close-modal-btn:hover {
+  background-color: #d32f2f;
+}
+
+.view-items-btn {
+  background-color: #007bff;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  width: 90px;
+  cursor: pointer;
+}
+
+.view-items-btn:hover {
+  background-color: #0056b3;
+}
+
+.pie-chart-container {
+  margin-left: 250px;
+}

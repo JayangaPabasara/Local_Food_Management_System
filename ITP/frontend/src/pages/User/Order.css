@@ -1,0 +1,121 @@
+.user-orders {
+  width: 100%;
+  margin: 20px;
+}
+
+.order-summary {
+  border: 1px solid #ccc;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.generate-report-button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+  background-color: tomato;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-details img {
+  width: 60px;
+}
+
+.order-summary hr {
+  margin-top: 20px;
+}
+
+.order-header h3 {
+  color: green;
+}
+
+.order-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.view-items-button,
+.remove-button {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.copy-link {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.view-items-button,
+.remove-button {
+  background-color: #ff7f50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.view-items-button:hover,
+.remove-button:hover {
+  background-color: #ff4500;
+}
+
+.view-items-button:hover,
+.remove-button:hover {
+  background-color: #ff4500;
+}
+
+/* Modal Styles */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-height: 80%;
+  overflow-y: auto;
+}
+
+.close-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.close-button:hover {
+  background-color: #ff0000;
+}

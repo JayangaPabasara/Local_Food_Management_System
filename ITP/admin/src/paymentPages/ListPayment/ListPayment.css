@@ -1,0 +1,22 @@
+h2 {
+  text-align: left;
+}
+
+.generate-overrole-pdf-btn {
+  background-color: #165ffd;
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.generate-overrole-pdf-btn:hover {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: solid #165ffd;
+}

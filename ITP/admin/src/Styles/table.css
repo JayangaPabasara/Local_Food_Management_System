@@ -1,0 +1,154 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,400i,700");
+
+* {
+  font-family: Roboto, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.list {
+  padding: 20px;
+  background-color: #f0f0f0b6;
+  text-align: center;
+  margin: 30px auto;
+}
+
+.list p {
+  font-size: 30px;
+  color: black;
+  font-weight: 800;
+}
+
+.list-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  gap: 40px;
+}
+
+.list-table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.list-table thead th {
+  background-color: #165ffd;
+  color: white;
+  padding: 12px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.list-table tbody tr {
+  background-color: #ffffff;
+}
+
+.list-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.list-table td {
+  padding: 12px;
+  text-align: center;
+  vertical-align: middle;
+  border-bottom: 1px solid #ddd;
+}
+
+.actions {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+
+.update-btn,
+.delete-btn {
+  background-color: #ffd000;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #f44336;
+}
+
+.delete-btn:hover {
+  background-color: #940b01;
+}
+
+.update-btn:hover {
+  background-color: #aa8b00;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.list-table tbody td img {
+  border: none;
+  padding: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .list-table th,
+  .list-table td {
+    padding: 8px;
+    font-size: 14px;
+  }
+
+  .food-image {
+    width: 50px;
+  }
+
+  .actions {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px) {
+  .list-table thead {
+    display: none;
+  }
+
+  .list-table,
+  .list-table tbody,
+  .list-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .list-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 14px;
+    position: relative;
+  }
+
+  .list-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 10px;
+    font-weight: bold;
+    white-space: nowrap;
+  }
+
+  .list-table td img {
+    width: 40px;
+  }
+}

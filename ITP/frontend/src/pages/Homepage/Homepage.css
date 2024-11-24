@@ -1,0 +1,43 @@
+.top_topic h4 {
+  margin-top: 100px;
+  color: red;
+}
+
+.View_More_btn button {
+  margin-top: 50px;
+  margin-left: 550px;
+  border: none;
+  color: #000000;
+  font-weight: 500;
+  padding: 1vw 2.3vw;
+  background-color: #f58634;
+  border: #f58634 solid;
+  font-size: max(1vw, 13px);
+  border-radius: 50px;
+}
+
+.View_More_btn button:hover {
+  background-color: rgb(255, 255, 255);
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.bannergirl_image img {
+  max-width: 100%;
+  height: auto;
+  width: 500px;
+}
+
+.Middle_topic h1 {
+  font-size: 2em;
+  margin-left: 20px;
+}
+
+.color_foods {
+  color: #80e35f;
+}

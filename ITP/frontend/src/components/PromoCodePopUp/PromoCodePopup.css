@@ -1,0 +1,68 @@
+.promocode-popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .promocode-popup {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+
+  .promocode-popup h2{
+    margin-bottom: 20px;
+    color: tomato;
+  }
+  
+  .promocode-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border: #333 solid;
+    border-radius: 10px;
+    height: 50px;
+  }
+  
+  .promocode {
+    font-size: 18px;
+    font-weight: bold;
+    color: #33333383;
+    margin-left: 80px;
+  }
+  
+  .copy-icon {
+   width: 20px;
+   margin-right: 10px;
+  }
+
+  .promo-close-btn:hover{
+    color: red;
+  }
+  
+  .promo-close-btn{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  .promo-icon{
+    width: 30px;
+  }
+  

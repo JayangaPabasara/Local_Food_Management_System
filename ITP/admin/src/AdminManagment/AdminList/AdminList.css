@@ -1,0 +1,44 @@
+.admin-list-container {
+  padding: 20px;
+}
+
+.admin-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.admin-table th,
+.admin-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.admin-table th {
+  background-color: #f4f4f4;
+}
+
+.add-admin-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.add-admin-button:hover {
+  background-color: #0056b3;
+}
+
+.delete-admin-button {
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.delete-admin-button:hover {
+  background-color: #c82333;
+}

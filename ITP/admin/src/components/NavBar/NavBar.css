@@ -1,0 +1,91 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+}
+
+.logo {
+  height: 60px;
+}
+
+.profile-section {
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.admin-name {
+  margin-right: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.profile {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ccc;
+}
+
+.dropdown {
+  position: absolute;
+  top: 40px;
+  right: 0;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+
+  padding: 10px;
+}
+
+.logout-btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: #333;
+  font-size: 1rem;
+  padding: 10px 15px;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.logout-icon {
+  width: 16px;
+  height: 16px;
+  margin-left: 5px;
+}
+
+.logout-btn:hover {
+  color: #ff6b0f;
+}
+
+.dynamic-header {
+  font-size: 1.5em;
+  color: #333;
+  margin-left: 20px;
+}
+
+.profile-section:hover .dropdown {
+  display: block;
+}
+
+@media (max-width: 600px) {
+  .admin-name {
+    display: none;
+  }
+
+  .profile-section {
+    justify-content: center;
+  }
+}

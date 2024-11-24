@@ -1,0 +1,126 @@
+.food-item {
+  width: 100%;
+  margin: auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px #f58634;
+  transition: 0.3s;
+  animation: fadeIn 1s;
+}
+
+.food-item-image {
+  height: 180px;
+  border-radius: 15px 15px 0px 0px;
+}
+
+.food-item-info {
+  padding: 20px;
+}
+
+.food-item-name-rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.food-item-name-rating p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.food-item-name-rating img {
+  width: 70px;
+}
+
+.food-item-desc {
+  color: #676767;
+  font-size: 12px;
+}
+
+.food-item-price {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.food-item-img-container {
+  position: relative;
+}
+
+.food-item-img-container .add {
+  width: 35px;
+  position: absolute;
+  bottom: -10px;
+  right: -40px;
+  cursor: pointer;
+  border-radius: 50%;
+  background-color: #f58634;
+}
+
+.food-item-counter {
+  position: absolute;
+  bottom: -10px;
+  right: -60px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px;
+  border-radius: 50px;
+  background-color: white;
+}
+
+.food-item-counter img {
+  width: 30px;
+}
+
+.food-item-price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add-to-cart-btn {
+  border: none;
+  color: #000000;
+  font-weight: 500;
+  padding: 0.5vw 1.3vw;
+  background-color: #80e35f;
+  border: #80e35f solid;
+  cursor: pointer;
+  font-size: max(1vw, 13px);
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: aliceblue;
+}
+
+.food-item-price-info {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.food-item-include {
+  font-size: 12px;
+  color: gray;
+}
+
+.food-item-image.blurred {
+  filter: blur(4px); /* Adjust blur level as needed */
+}
+
+.out-of-stock-label {
+  position: absolute;
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for the element's own size */
+  background-color: rgba(255, 0, 0, 0.7); /* Red background with transparency */
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  z-index: 1; /* Ensure the label is above the image */
+  white-space: nowrap; /* Prevent the label from breaking into multiple lines */
+}
